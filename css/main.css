@@ -86,12 +86,12 @@ header {
 .article img {
   height: 40%;
 }
-
 .features > div {
   background-color: #fff !important;
-  height:100%;
   padding: 15px !important;
+  height: 100% !important;
 }
+
 @media (min-width: 992px) {
   .features {
     gap: 15px !important;
@@ -108,7 +108,11 @@ header {
     flex-basis: 48% !important;
   }
 }
-
+@media (min-width: 1200px) {
+  .features {
+    height: 45vh !important;
+  }
+}
 /* end Latest artciles */
 /* start footer */
 footer {
