@@ -89,6 +89,7 @@ header {
 
 .features > div {
   background-color: #fff !important;
+  height:100%;
   padding: 15px !important;
 }
 @media (min-width: 992px) {
