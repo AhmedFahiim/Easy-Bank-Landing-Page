@@ -94,7 +94,7 @@ header {
 
 @media (min-width: 992px) {
   .features {
-    gap: 15px !important;
+    gap: 10px !important;
   }
   .features > div {
     flex-basis: 24% !important;
